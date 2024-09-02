@@ -1,0 +1,27 @@
+{
+  "tables": {
+    "lhc_mbird_channel": [
+      {
+        "field": "id",
+        "type": "bigint(20) unsigned",
+        "null": "NO",
+        "key": "UNI",
+        "default": null,
+        "extra": ""
+      }
+    ]
+  },
+  "tables_data": {    },
+  "tables_data_identifier": {    },
+  "tables_indexes" : {
+    "lhc_mbird_channel" : {
+      "new" : {
+      },
+      "old" : []
+    }
+  },
+  "tables_create": {
+    "lhc_mbird_channel" : "CREATE TABLE `lhc_mbird_channel` (`id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,`channel_id` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,`name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,`dep_id` bigint(20) unsigned NOT NULL, `created_at` bigint(20) unsigned NOT NULL, `updated_at` bigint(20) unsigned NOT NULL,PRIMARY KEY (`id`), KEY `channel_id` (`channel_id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;"
+  }
+}
+
