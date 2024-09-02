@@ -18,7 +18,9 @@ Go to Left menu `Modules` -> `Bird.com` and fill your settings.
 
 # Bot sample
 
-bot sample can be found here...
+Bot sample can be found at [bot-sample.json](https://github.com/LiveHelperChat/mbird/blob/main/doc/bot-sample.json)
+
+Just import a bot and set it for your chosen department.
 
 # Limitations
 
